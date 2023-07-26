@@ -1,2 +1,0 @@
-# Alejo-Designs
-Web Portafolio
