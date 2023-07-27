@@ -1,16 +1,17 @@
-@blue @#0A2BFF;
+@import url('/css/fonts.css');
 
-.{
-  margin: 0;
-  padding: 0;
+header iframe {
+  position: fixed;
 }
-header
-{
-  width: 20rem;
-  height: 20rem;
-  color: blue;
-  background: blue;
-}
-header p{
-color: brown;
-}
+iframe {
+    width: 100%; /* Ocupar todo el ancho disponible */
+    height: 100vh; /* Ocupar toda la altura visible de la ventana */
+    border: none; /* Eliminar el borde */
+    margin: 0; /* Eliminar los márgenes */
+    padding: 0; /* Eliminar los rellenos */
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
