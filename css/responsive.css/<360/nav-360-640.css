@@ -1,0 +1,45 @@
+@import url('../../fonts.css');
+@media (max-width: 767px) {
+
+  header iframe {
+    position: fixed;
+  }
+  iframe {
+    width: 100%; /* Ocupar todo el ancho disponible */
+    height: 100vh; /* Ocupar toda la altura visible de la ventana */
+    border: none; /* Eliminar el borde */
+    margin: 0; /* Eliminar los márgenes */
+    padding: 0; /* Eliminar los rellenos */
+  }    
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links ul li a{
+    display: none;
+  }
+  
+  .btn-container {
+    display: flex;
+    border-radius: 3rem;
+    background: linear-gradient(70deg, #0A2BFF,  #0A2BFF, #FFFFFF);
+    padding: 8px 10px 8px 20px;
+    border: none;
+    cursor: pointer; 
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: background-color 5000ms;
+  }
+
+
+
+
+
+
+
+
+
+
+
+}
