@@ -1,24 +1,24 @@
 @font-face {
     font-family: "font-regular" ;
-    src: url("../../fonts/REGULAR.TTF");
+    src: url("../fonts/REGULAR.TTF");
   }
   @font-face {
     font-family: "font-semibold" ;
-    src: url("../../fonts/SEMIBOLD.TTF");
+    src: url("../fonts/SEMIBOLD.TTF");
   }
   @font-face {
     font-family: "font-bold" ;
-    src: url("../../fonts/BOLD.TTF");
+    src: url("../fonts/BOLD.TTF");
   }
   @font-face {
     font-family: "font-bolditalic" ;
-    src: url("../../fonts/BOLDITALIC.TTF");
+    src: url("../fonts/BOLDITALIC.TTF");
   }
   @font-face {
     font-family: "font-medium" ;
-    src: url("../../fonts/MEDIUM.TTF");
+    src: url("../fonts/MEDIUM.TTF");
   }
   @font-face {
     font-family: "font-mediumitalic" ;
-    src: url("../../fonts/MEDIUMITALIC.TTF");
+    src: url("../fonts/MEDIUMITALIC.TTF");
   }
