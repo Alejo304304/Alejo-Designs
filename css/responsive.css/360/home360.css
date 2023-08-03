@@ -31,8 +31,9 @@
     display: flex;
     padding: 1.5rem;
   }
-  .titulo-description {
-    font-family: "font-bold";
+  .titulo-descripcion {
+    width: 100%;
+    height: auto;
   }
   .text-descripcion {
     width: 100%;
