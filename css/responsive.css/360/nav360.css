@@ -7,12 +7,11 @@
     position: absolute;
   }
   nav {
-    background-color:;
-    position: fixed;
+    background-color: #ffffff;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: blue;
+    padding-top: 1rem auto;    
   }
 
   .nav-links li {
@@ -27,8 +26,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.7rem 1rem;
-    background-color: ;
+    margin: 0.7rem 1rem;
   }
   
   .logo img {
@@ -63,6 +61,4 @@
   .btn-container img {
     margin-left: 0.8rem;
   }
-  
-
 }
