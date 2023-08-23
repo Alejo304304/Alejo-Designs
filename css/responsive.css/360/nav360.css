@@ -19,7 +19,7 @@
   }
   
    a {
-    font-family: "font-semibold" ;
+    font-family: "font-semibold";
     text-decoration: none;
   }
   .nav-container {
@@ -41,7 +41,7 @@
     padding: 0;
   }  
    
-  .btn-container {
+  .btn-contactame {    
     display: flex;
     border-radius: 3rem;
     background: linear-gradient(70deg, #0A2BFF,  #0A2BFF, #FFFFFF);
@@ -51,14 +51,21 @@
     text-decoration: none;
     color: #FFFFFF;
   }
-  
-  .btn-container:hover, .btn-container:focus {
+    
+  .btn-contactame:hover, .btn-contactame:focus {
     transition: background-color 5000ms;
     background: linear-gradient(70deg, #0A2BFF,  #0A2BFF, #0A2BFF);
     color: #FFFFFF;
   }  
+
+  .btn-contactame {
+    font-family: "font-bold";
+    font-size: 1rem;
+    color: #FFFFFF;
+  }
   
-  .btn-container img {
+  .btn-contactame img {
+    margin-top: 0.2rem;
     margin-left: 0.8rem;
   }
 }
