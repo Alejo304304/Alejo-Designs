@@ -1,0 +1,136 @@
+@import url('../../fonts.css');
+
+/*-----------------------------------------------*/
+@media (min-width: 360px) and (max-width: 667px) {
+
+
+#iframe-nav {
+  position: fixed;
+  z-index: 9999;
+}
+#iframe-nav {
+    width: 100%; 
+    height: 100vh;
+    border: none;
+    margin: 0; 
+    padding: 0;
+    margin-top: -4rem;
+}
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  main {
+    margin: 0;
+    padding: 0;    
+    margin-top: 4rem;
+  }
+
+  #alejo-descripcion {
+    display: flex;
+    padding: 1.5rem;
+  }
+  .titulo-descripcion {
+    width: 100%;
+    height: auto;
+  }
+  .text-descripcion {
+    width: 100%;
+    height: auto;
+    padding: 0.6rem 0;
+  }
+  .text-descripcion p {
+    font-family: "font-regular" ;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #141C3A;
+  }
+  .btn-portafolio-container {
+    width: auto;
+    height: auto;
+  }
+  .btn-portafolio {    
+    display: flex;
+    border-radius: 3rem;
+    background: linear-gradient(70deg, #0A2BFF,  #0A2BFF, #FFFFFF);
+    padding: 8px 10px 8px 20px;
+    border: none;
+    cursor: pointer; 
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+    
+  .btn-portafolio:hover, .btn-portafolio:focus {
+    transition: background-color 5000ms;
+    background: linear-gradient(70deg, #0A2BFF,  #0A2BFF, #0A2BFF);
+    color: #FFFFFF;
+  }  
+
+  .btn-portafolio {
+    font-family: "font-bold";
+    font-size: 1rem;
+    color: #FFFFFF;
+  }
+  
+  .btn-portafolio img {
+    margin-top: 0.2rem;
+    margin-left: 0.8rem;
+  }
+
+    .ilustracion-container {
+      float: right;    
+    }
+    .ilustracion-container img {
+      width: 18rem;
+      height: auto;
+    }  
+  
+    .redes-container {
+      display: flex;
+      width: 100%;
+      height: auto;
+      padding-top: 2rem;
+    }
+
+    .redes-container span {
+      font-family: "font-semibold";
+      font-size: 0.8rem;
+      color: #8F8F8F;
+      float: inline-start;
+      position: absolute;
+    }
+
+    .btn-redes-containes {
+      width: 100%;
+      justify-content: center;
+      height: auto;
+      display: block;
+      float: inline-end;
+      padding-top: 1rem;
+    }
+
+    .btn-redes-containes img {
+      margin-top: 1rem;
+      padding-right: 1.8rem; 
+    }
+
+
+    .creacion-container hr {
+      width: 13rem;
+      border-top: 2px solid blue;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
