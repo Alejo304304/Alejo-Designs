@@ -1,5 +1,3 @@
-
-
 # Mi Web 💻✨ Alejo Designs
 
 *Es mi primera web propia oficial. Con el objetivo de pulir y presentar mi desempeño en el diseño grafico y diseño de interfaz.*
