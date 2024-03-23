@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "font-regular" ;
+  src: url("regular.ttf")
+}
+
+@font-face {
+  font-family: "font-bold" ;
+  src: url("font/Gilroy-Bold.ttf")
+}
+@font-face {
+  font-family: "font-semibold" ;
+  src: url("semibold.ttf")
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #17181c;
+  color: #fff;
+}
+a {
+  font-family: "font-bold";
+}
+a img {
+  width: 5%;
+  height: auto;
+  margin-right: 5%;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  margin: 0; /* Sin margen */
+}
+
+.logo-container {
+  margin-top: 10px; /* Margen superior ajustado para el logo */
+}
+
+.logo-container img {
+  width: 30%;
+  max-width: 250px;
+}
+
+.content {
+  padding: 20px;
+}
+
+.link-container,
+.description {
+  text-align: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.link-container a,
+.description p {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #0a2bff;
+  padding: 20px 40px;
+  margin: 10px auto; /* Centrar y agregar espacio */
+  border-radius: 50px;
+  width: 60%;
+  max-width: 300px;
+}
+
+.link-container a:hover {
+  background-color: #b3b3b3;
+}
+
+.video-container {
+  text-align: center;
+}
+
+video {
+  max-width: 85%;
+  border-radius: 10px;
+}
+
